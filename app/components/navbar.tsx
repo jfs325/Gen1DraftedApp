@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styles from './navbar.module.css'
 import Image from 'next/image'
-import imagePath from "app/public/beer.svg"
+import imagePath from "../public/beer.svg"
 
 const NavBar = (props: {
     brand: { name: string; to: string },
